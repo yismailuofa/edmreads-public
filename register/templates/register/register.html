@@ -1,0 +1,30 @@
+{% extends "books/layout.html" %}
+
+{% block title %}
+    Create an Account
+{% endblock %}
+
+{% block header %}
+    Sign Up to Track Your Books!
+{% endblock %}
+
+{% block buttonheader %}
+    <div class="navbar-nav ms-auto">
+        <button onclick = "window.location.href='/'" type="button" class="btn btn-dark mx-2 my-2 nav-item">Home</button>     
+    </div>          
+{% endblock %}
+
+{% load crispy_forms_tags %}
+
+{% block user %}
+    <div class="d-flex justify-content-center">
+        <form method="post" class="form-group" style="width:60%;">
+            {% csrf_token %}
+            {{ form|crispy }}
+            <p>Already have an account? Log in <a href="/login">here</a>.</p>
+            <div class="text-center">
+                <button type="submit" class="btn btn-dark">Register</button>
+            </div>
+        </form>
+    </div>
+{% endblock %}
