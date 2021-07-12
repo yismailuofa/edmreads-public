@@ -4,7 +4,7 @@
 Edmonton Reads is an easy to use, free website that showcases the top 10 most popular books in Edmonton, Alberta every week. Users can also make an account to store their favorite books in a customized Reading List. The site features responsive design and is optimized for both desktop and mobile use.
 
 ## Implementations:
-Edmonton Reads is built on the Django framework with Python and uses a PostgreSQL database to store books. Javascript combined with HTML, CSS, and Bootstrap comprise most of the front end. Book information is retrieved from a combination of Edmonton Public Library and Google RESTful APIs.
+Edmonton Reads is built on the Django framework with Python and uses a PostgreSQL database to store books. The frontend is built with Bootstrap and some custom CSS. Book information is retrieved from the Edmonton Public Library and Google Book APIs.
 
 ## Screenshots:
 ![image](https://user-images.githubusercontent.com/59630201/104113227-a9207680-52b4-11eb-8a0b-597329aea02c.png)
