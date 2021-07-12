@@ -13,6 +13,6 @@ Edmonton Reads is built on the Django framework with Python and uses a PostgreSQ
 ![image](https://user-images.githubusercontent.com/59630201/104113253-da994200-52b4-11eb-839c-ab439350774a.png)
 ![image](https://user-images.githubusercontent.com/59630201/104113256-dcfb9c00-52b4-11eb-9b4e-a04387e3e944.png)
 
-## Credits:
+## Creators:
 This project was developed by [Rupin Bapuji](https://github.com/rbapuji1), [Youssef Ismail](https://github.com/yismailuofa/) and [Kourosh Kehtari](https://github.com/kouroshkeh).
 
